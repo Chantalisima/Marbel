@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+public class BasePresenter {
+    
+    public func viewWillAppear() {}
+    
+    public func viewDidLoad() {}
+    
+    public func viewDidAppear() {}
+    
+    public func viewDidDisappear() {}
+}

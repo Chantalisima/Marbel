@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct APIEnvironment {
+    public static let apiBaseURL = Bundle.main.object(forInfoDictionaryKey: "APIBaseURL") as? String ?? ""
+}
