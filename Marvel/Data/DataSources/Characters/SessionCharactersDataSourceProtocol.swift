@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol SessionCharactersDataSourceProtocol {
+    
+    var characters: [Character]? { get set }
+}

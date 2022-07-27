@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol ApiSplashDataSourceProtocol {
+    func characters() async throws -> Characters
+}

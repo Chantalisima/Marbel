@@ -25,8 +25,8 @@
 		75ACE489288EB75D000CD758 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE488288EB75D000CD758 /* SplashPresenter.swift */; };
 		75ACE48B288EB76C000CD758 /* SplashPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE48A288EB76C000CD758 /* SplashPresenterProtocol.swift */; };
 		75ACE48E288EB88F000CD758 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE48D288EB88F000CD758 /* BaseInteractor.swift */; };
-		75ACE490288EB905000CD758 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE48F288EB905000CD758 /* SplashInteractor.swift */; };
-		75ACE492288EB920000CD758 /* SplashInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE491288EB920000CD758 /* SplashInteractorProtocol.swift */; };
+		75ACE490288EB905000CD758 /* SplashInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE48F288EB905000CD758 /* SplashInteractorProtocol.swift */; };
+		75ACE492288EB920000CD758 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE491288EB920000CD758 /* SplashInteractor.swift */; };
 		75ACE497288FCC55000CD758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ACE496288FCC55000CD758 /* LaunchScreen.storyboard */; };
 		75ACE49A288FD1D7000CD758 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE499288FD1D7000CD758 /* DataSource.swift */; };
 		75ACE49C288FD221000CD758 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE49B288FD221000CD758 /* Error.swift */; };
@@ -34,10 +34,15 @@
 		75ACE4A2288FF235000CD758 /* CharactersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4A1288FF235000CD758 /* CharactersRequest.swift */; };
 		75ACE4A4288FF3EF000CD758 /* APIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4A3288FF3EF000CD758 /* APIConnector.swift */; };
 		75ACE4A628900754000CD758 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4A528900754000CD758 /* Character.swift */; };
+		75ACE4AA28912976000CD758 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4A928912976000CD758 /* Characters.swift */; };
+		75ACE4AC28912CF9000CD758 /* ApiSplashDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4AB28912CF9000CD758 /* ApiSplashDataSource.swift */; };
+		75ACE4AE28912D14000CD758 /* ApiSplashDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4AD28912D14000CD758 /* ApiSplashDataSourceProtocol.swift */; };
+		75ACE4B028913B61000CD758 /* SessionCharactersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4AF28913B61000CD758 /* SessionCharactersDataSource.swift */; };
+		75ACE4B328913B89000CD758 /* SessionCharactersDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACE4B228913B89000CD758 /* SessionCharactersDataSourceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		75ACE43F288E9976000CD758 /* Marbel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marbel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75ACE43F288E9976000CD758 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75ACE442288E9976000CD758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75ACE44B288E9977000CD758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75ACE450288E9977000CD758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,8 +62,8 @@
 		75ACE488288EB75D000CD758 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		75ACE48A288EB76C000CD758 /* SplashPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenterProtocol.swift; sourceTree = "<group>"; };
 		75ACE48D288EB88F000CD758 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
-		75ACE48F288EB905000CD758 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
-		75ACE491288EB920000CD758 /* SplashInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorProtocol.swift; sourceTree = "<group>"; };
+		75ACE48F288EB905000CD758 /* SplashInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorProtocol.swift; sourceTree = "<group>"; };
+		75ACE491288EB920000CD758 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
 		75ACE496288FCC55000CD758 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75ACE499288FD1D7000CD758 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		75ACE49B288FD221000CD758 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
@@ -66,6 +71,11 @@
 		75ACE4A1288FF235000CD758 /* CharactersRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRequest.swift; sourceTree = "<group>"; };
 		75ACE4A3288FF3EF000CD758 /* APIConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnector.swift; sourceTree = "<group>"; };
 		75ACE4A528900754000CD758 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		75ACE4A928912976000CD758 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		75ACE4AB28912CF9000CD758 /* ApiSplashDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSplashDataSource.swift; sourceTree = "<group>"; };
+		75ACE4AD28912D14000CD758 /* ApiSplashDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSplashDataSourceProtocol.swift; sourceTree = "<group>"; };
+		75ACE4AF28913B61000CD758 /* SessionCharactersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCharactersDataSource.swift; sourceTree = "<group>"; };
+		75ACE4B228913B89000CD758 /* SessionCharactersDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCharactersDataSourceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +92,7 @@
 		75ACE436288E9976000CD758 = {
 			isa = PBXGroup;
 			children = (
-				75ACE441288E9976000CD758 /* Marbel */,
+				75ACE441288E9976000CD758 /* Marvel */,
 				75ACE440288E9976000CD758 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,12 +100,12 @@
 		75ACE440288E9976000CD758 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75ACE43F288E9976000CD758 /* Marbel.app */,
+				75ACE43F288E9976000CD758 /* Marvel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75ACE441288E9976000CD758 /* Marbel */ = {
+		75ACE441288E9976000CD758 /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
 				75ACE457288E9BD2000CD758 /* App */,
@@ -106,7 +116,7 @@
 				75ACE496288FCC55000CD758 /* LaunchScreen.storyboard */,
 				75ACE450288E9977000CD758 /* Info.plist */,
 			);
-			path = Marbel;
+			path = Marvel;
 			sourceTree = "<group>";
 		};
 		75ACE456288E9BC9000CD758 /* Presentation */ = {
@@ -192,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				75ACE4A528900754000CD758 /* Character.swift */,
+				75ACE4A928912976000CD758 /* Characters.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,8 +337,8 @@
 		75ACE48C288EB806000CD758 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				75ACE48F288EB905000CD758 /* SplashInteractor.swift */,
-				75ACE491288EB920000CD758 /* SplashInteractorProtocol.swift */,
+				75ACE48F288EB905000CD758 /* SplashInteractorProtocol.swift */,
+				75ACE491288EB920000CD758 /* SplashInteractor.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -342,6 +353,7 @@
 		75ACE494288EBCD3000CD758 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
+				75ACE4B128913B72000CD758 /* Characters */,
 				75ACE498288FD06E000CD758 /* Splash */,
 			);
 			path = DataSources;
@@ -350,6 +362,8 @@
 		75ACE498288FD06E000CD758 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				75ACE4AB28912CF9000CD758 /* ApiSplashDataSource.swift */,
+				75ACE4AD28912D14000CD758 /* ApiSplashDataSourceProtocol.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -362,12 +376,21 @@
 			path = APIRequest;
 			sourceTree = "<group>";
 		};
+		75ACE4B128913B72000CD758 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				75ACE4AF28913B61000CD758 /* SessionCharactersDataSource.swift */,
+				75ACE4B228913B89000CD758 /* SessionCharactersDataSourceProtocol.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75ACE43E288E9976000CD758 /* Marbel */ = {
+		75ACE43E288E9976000CD758 /* Marvel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75ACE453288E9977000CD758 /* Build configuration list for PBXNativeTarget "Marbel" */;
+			buildConfigurationList = 75ACE453288E9977000CD758 /* Build configuration list for PBXNativeTarget "Marvel" */;
 			buildPhases = (
 				75ACE43B288E9976000CD758 /* Sources */,
 				75ACE43C288E9976000CD758 /* Frameworks */,
@@ -377,9 +400,9 @@
 			);
 			dependencies = (
 			);
-			name = Marbel;
+			name = Marvel;
 			productName = Marbel;
-			productReference = 75ACE43F288E9976000CD758 /* Marbel.app */;
+			productReference = 75ACE43F288E9976000CD758 /* Marvel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -397,7 +420,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 75ACE43A288E9976000CD758 /* Build configuration list for PBXProject "Marbel" */;
+			buildConfigurationList = 75ACE43A288E9976000CD758 /* Build configuration list for PBXProject "Marvel" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -410,7 +433,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				75ACE43E288E9976000CD758 /* Marbel */,
+				75ACE43E288E9976000CD758 /* Marvel */,
 			);
 		};
 /* End PBXProject section */
@@ -438,18 +461,22 @@
 				75ACE48E288EB88F000CD758 /* BaseInteractor.swift in Sources */,
 				75ACE475288EA605000CD758 /* CharacterListViewController.swift in Sources */,
 				75ACE49F288FEB93000CD758 /* DescriptionResponse.swift in Sources */,
+				75ACE4AE28912D14000CD758 /* ApiSplashDataSourceProtocol.swift in Sources */,
+				75ACE4AC28912CF9000CD758 /* ApiSplashDataSource.swift in Sources */,
 				75ACE47B288EAACA000CD758 /* CharacterListPresenter.swift in Sources */,
 				75ACE47D288EAAEE000CD758 /* CharacterListPresenterProtocol.swift in Sources */,
-				75ACE490288EB905000CD758 /* SplashInteractor.swift in Sources */,
+				75ACE490288EB905000CD758 /* SplashInteractorProtocol.swift in Sources */,
 				75ACE48B288EB76C000CD758 /* SplashPresenterProtocol.swift in Sources */,
 				75ACE443288E9976000CD758 /* AppDelegate.swift in Sources */,
 				75ACE482288EB552000CD758 /* SpacerView.swift in Sources */,
 				75ACE480288EADE8000CD758 /* UIViewExtensions.swift in Sources */,
 				75ACE46D288E9FC6000CD758 /* ApiEnvironment.swift in Sources */,
-				75ACE492288EB920000CD758 /* SplashInteractorProtocol.swift in Sources */,
+				75ACE492288EB920000CD758 /* SplashInteractor.swift in Sources */,
 				75ACE489288EB75D000CD758 /* SplashPresenter.swift in Sources */,
 				75ACE461288E9C56000CD758 /* MainCoordinator.swift in Sources */,
+				75ACE4AA28912976000CD758 /* Characters.swift in Sources */,
 				75ACE465288E9EEA000CD758 /* BaseViewController.swift in Sources */,
+				75ACE4B328913B89000CD758 /* SessionCharactersDataSourceProtocol.swift in Sources */,
 				75ACE4A4288FF3EF000CD758 /* APIConnector.swift in Sources */,
 				75ACE4A2288FF235000CD758 /* CharactersRequest.swift in Sources */,
 				75ACE479288EA83C000CD758 /* CharacterViewCell.swift in Sources */,
@@ -457,6 +484,7 @@
 				75ACE4A628900754000CD758 /* Character.swift in Sources */,
 				75ACE49C288FD221000CD758 /* Error.swift in Sources */,
 				75ACE486288EB71A000CD758 /* SplashViewController.swift in Sources */,
+				75ACE4B028913B61000CD758 /* SessionCharactersDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				API_BASE_URL = "https://developer.marvel.com/docs";
+				API_BASE_URL = "https://gateway.marvel.com";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -588,7 +616,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85T6WU5C2P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Marbel/Info.plist;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -599,7 +627,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chantaldeleste.Marbel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chantaldeleste.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -616,7 +644,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 85T6WU5C2P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Marbel/Info.plist;
+				INFOPLIST_FILE = Marvel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -627,7 +655,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chantaldeleste.Marbel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chantaldeleste.Marvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -638,7 +666,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75ACE43A288E9976000CD758 /* Build configuration list for PBXProject "Marbel" */ = {
+		75ACE43A288E9976000CD758 /* Build configuration list for PBXProject "Marvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75ACE451288E9977000CD758 /* Debug */,
@@ -647,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75ACE453288E9977000CD758 /* Build configuration list for PBXNativeTarget "Marbel" */ = {
+		75ACE453288E9977000CD758 /* Build configuration list for PBXNativeTarget "Marvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				75ACE454288E9977000CD758 /* Debug */,
