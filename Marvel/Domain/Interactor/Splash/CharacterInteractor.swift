@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class SplashInteractor: BaseInteractor, SplashInteractorProtocol {
+public class CharacterInteractor: BaseInteractor, SplashInteractorProtocol {
     
 
     // MARK: - Properties
