@@ -24,4 +24,9 @@ class ApiSplashDataSource: AsyncApiDataSource, ApiSplashDataSourceProtocol {
         let urlRequest = CharactersRequest.all.urlRequest()
         return try await execute(type: Characters.self, urlRequest)
     }
+    
+    func getComics(id: Int) async throws -> Comics {
+        let urlRequest = ComicRequest.comics(userId: id).urlRequest()
+        return try await execute(type: Comics.self, urlRequest)
+    }
 }

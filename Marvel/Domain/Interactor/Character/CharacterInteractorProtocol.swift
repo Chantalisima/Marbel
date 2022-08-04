@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol SplashInteractorProtocol where Self: BaseInteractor {
+protocol CharacterInteractorProtocol where Self: BaseInteractor {
     
-    func getCharacters() async throws -> Characters
+    func getCharacters() async throws -> [Character]
 }

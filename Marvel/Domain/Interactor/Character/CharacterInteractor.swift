@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class CharacterInteractor: BaseInteractor, SplashInteractorProtocol {
+public class CharacterInteractor: BaseInteractor, CharacterInteractorProtocol {
     
 
     // MARK: - Properties
@@ -25,16 +25,19 @@ public class CharacterInteractor: BaseInteractor, SplashInteractorProtocol {
 
     // MARK: - SplashInteractor functions
     
-    func getCharacters() async throws -> Characters {
+    func getCharacters() async throws -> [Character] {
+        
+        if let characters = sessionCharactersDataSource.characters {
+            return characters
+        }
+        
         let characters = try await self.apiSplashDataSource.characters()
         
         if !characters.data.isEmpty {
             self.sessionCharactersDataSource.characters = characters.data
         }
-        
-        // TODO: save in session
-        
-        return characters
+                
+        return characters.data
     }
 
 }
