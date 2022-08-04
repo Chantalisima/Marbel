@@ -7,6 +7,8 @@
 
 import Foundation
 
-protocol ApiSplashDataSourceProtocol {
+protocol ApiCharacterDataSourceProtocol {
     func characters() async throws -> Characters
+    func characterById(id: Int) async throws -> Characters
+    func comics(for id: Int) async throws -> Comics
 }

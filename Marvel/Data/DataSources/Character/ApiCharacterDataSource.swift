@@ -7,12 +7,12 @@
 
 import Foundation
 
-class ApiSplashDataSource: AsyncApiDataSource, ApiSplashDataSourceProtocol {
+class ApiCharacterDataSource: AsyncApiDataSource, ApiCharacterDataSourceProtocol {
     
 
     // MARK: - Singleton
     
-    static let shared = ApiSplashDataSource()
+    static let shared = ApiCharacterDataSource()
     
     // MARK: - Private Init
     
@@ -25,7 +25,12 @@ class ApiSplashDataSource: AsyncApiDataSource, ApiSplashDataSourceProtocol {
         return try await execute(type: Characters.self, urlRequest)
     }
     
-    func getComics(id: Int) async throws -> Comics {
+    func characterById(id: Int) async throws -> Characters {
+        let urlRequest = CharactersRequest.specific(id).urlRequest()
+        return try await execute(type: Characters.self, urlRequest)
+    }
+    
+    func comics(for id: Int) async throws -> Comics {
         let urlRequest = ComicRequest.comics(userId: id).urlRequest()
         return try await execute(type: Comics.self, urlRequest)
     }
